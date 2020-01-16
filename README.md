@@ -1,44 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## AWS S3 + CodePipeline Depoly
 
-## Available Scripts
+![](./s3-codepipeline-depoly.png)
 
-In the project directory, you can run:
+> Create smart AWS diagrams [Cloudcraft](https://cloudcraft.co/)
 
-### `yarn start`
+## Production
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [S3](https://aws.amazon.com/ko/s3/) : 최고의 확장성과 데이터 가용성 및 보안과 성능을 제공하는 객체 스토리지 서비스
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+* [CodeBuild](https://aws.amazon.com/ko/codebuild/) : 소스 코드를 컴파일하는 단계부터 테스트 실행 후 소프트웨어 패키지를 개발하여 배포하는 단계까지 마칠 수 있는 완전관리형의 지속적 통합 서비스
 
-### `yarn test`
+* [CodePipeline](https://aws.amazon.com/ko/codepipeline/) : 빠르고 안정적인 애플리케이션 및 인프라 업데이트를 위해 릴리스 파이프라인을 자동화하는 데 도움이 되는 완전관리형 [지속적 전달](https://aws.amazon.com/ko/devops/continuous-delivery/) 서비스
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Identity and Access Management(IAM)](https://aws.amazon.com/ko/iam/) : AWS 서비스와 리소스에 대한 액세스를 안전하게 관리할 수 있습니다.
 
-### `yarn build`
+* [Route 53](https://aws.amazon.com/ko/route53/) : 높은 가용성과 확장성이 뛰어난 클라우드 [Domain Name System(DNS)](https://aws.amazon.com/ko/route53/what-is-dns/) 웹 서비스
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [CloudFront](https://aws.amazon.com/ko/cloudfront/) : 짧은 지연 시간과 빠른 전송 속도로 데이터, 동영상, 어플리케이션 및 API를 전 세계 고객에게 안전하게 전송하는 고속 콘텐츠 전송 네트워크(CDN) 서비스
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* [Certificate Manager](https://aws.amazon.com/ko/certificate-manager/) AWS 서비스 및 연결된 내부 리스소에 사용할 공인 및 사설 SSL/TLS(Secure Sockets Layer) 인증서를 손쉽게 프로비저닝, 관리 및 배포를 지원하는 서비스
