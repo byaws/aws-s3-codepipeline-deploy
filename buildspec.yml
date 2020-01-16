@@ -12,6 +12,6 @@ phases:
   build:
     commands:                               # 정적파일로 빌드
       - npm run build
-  # post_build:
-  #   commands:                               # 빌드 후 결과물을 버킷으로 업로드
-  #     - aws s3 sync ./build s3://s3-codepipeline-build-tutorial
+  post_build:
+    commands:                               # 빌드 후 결과물을 버킷으로 업로드
+      - aws s3 sync ./build s3://s3-codepipeline-build-tutorial
