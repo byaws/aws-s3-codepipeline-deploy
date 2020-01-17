@@ -1,5 +1,5 @@
 {
-  "name": "aws-s3-depoly",
+  "name": "aws-s3-deploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

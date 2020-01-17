@@ -1,6 +1,6 @@
-## AWS S3 + CodePipeline Depoly
+## AWS S3 + CodePipeline Deploy
 
-![](./s3-codepipeline-depoly.png)
+![](./s3-codepipeline-deploy.png)
 
 > Create smart AWS diagrams [Cloudcraft](https://cloudcraft.co/)
 
