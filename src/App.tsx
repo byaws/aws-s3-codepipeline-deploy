@@ -7,7 +7,7 @@ const App: React.FC = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>AWS Codepipeline S3 Deploy</p>
+        <p>AWS S3 CodePipeline Deploy</p>
       </header>
     </div>
   );
