@@ -20,7 +20,7 @@ This means customers of all sizes and industries can use it to store and protect
 
 ▾ Amazon S3 works
 
-<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/master/screenshots/s3-works.png' border='0' alt='ecs-works' />
+<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/master/screenshots/s3-works.png' border='0' alt='s3-works' />
 
 ## What is CodePipeline ?
 
