@@ -36,8 +36,6 @@ CodePipeline automates the build, test, and deploy phases of your release proces
 
 ### Add a Build Specification File to Your Source Repository
 
-CodeBuild to build your Docker image and push the image to Amazon ECR.
-
 Add a `buildspec.yml` file to your source code repository to tell CodeBuild how to do that.
 
 ▾ buildspec.yml
