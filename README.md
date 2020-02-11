@@ -1,6 +1,8 @@
 <img src='https://github.com/byaws/images/raw/master/s3-codepipeline/architecture.png' border='0' alt='architecture' />
 
-Implementation of automated distribution through [aws](https://aws.amazon.com/ko/) product [s3](https://aws.amazon.com/ko/s3/), [codepipeline](https://aws.amazon.com/ko/codepipeline/), [sns](https://aws.amazon.com/ko/sns), [chatbot](https://aws.amazon.com/ko/chatbot/)
+Implementation of automated distribution through [AWS](https://aws.amazon.com/ko/) product [S3](https://aws.amazon.com/ko/s3/) and [CodePipeline](https://aws.amazon.com/ko/codepipeline/)
+
+Notifications over Slack using through [AWS](https://aws.amazon.com/ko/) product [SNS](https://aws.amazon.com/ko/sns) and [Chatbot](https://aws.amazon.com/ko/chatbot/)
 
 > Create smart AWS diagrams [Cloudcraft](https://cloudcraft.co/)
 
@@ -76,10 +78,10 @@ AWS Chatbot is an interactive agent that makes it easy to monitor and interact w
 
 AWS Chatbot is currently in beta.
 
-▾ Amazon Chatbot works Notifications
+▾ Amazon Chatbot Notifications
 
 <img src='https://github.com/byaws/images/raw/master/s3-codepipeline/chatbot-notifications.png' border='0' alt='chatbot-notifications' />
 
-▾ Amazon Chatbot works Commands
+▾ Amazon Chatbot Commands
 
 <img src='https://github.com/byaws/images/raw/master/s3-codepipeline/chatbot-commands.png' border='0' alt='chatbot-commands' />
