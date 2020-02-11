@@ -46,16 +46,16 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 12
+      nodejs: 12                               # Runtime node.js 12
     commands:
-      - npm install -g npm@latest
+      - npm install -g npm@latest              # Install npm latest
   pre_build:
     commands:
-      - npm install
+      - npm install                            # Install dependencies
   build:
     commands:
-      - npm run build
+      - npm run build                          # Build 
   post_build:
     commands:
-      - aws s3 sync ./build s3://{ S3_BUCKET }
+      - aws s3 sync ./build s3://{ S3_BUCKET } # Upload S3
 ```
