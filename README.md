@@ -1,6 +1,6 @@
-<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/master/screenshots/architecture.png' border='0' alt='architecture' />
+<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/architecture.png' border='0' alt='architecture' />
 
-Implementation of automated distribution through [aws](https://aws.amazon.com/ko/) product [s3](https://aws.amazon.com/ko/s3/) and [codepipeline](https://aws.amazon.com/ko/codepipeline/)
+Implementation of automated distribution through [aws](https://aws.amazon.com/ko/) product [s3](https://aws.amazon.com/ko/s3/), [codepipeline](https://aws.amazon.com/ko/codepipeline/), [sns](https://aws.amazon.com/ko/sns), [chatbot](https://aws.amazon.com/ko/chatbot/)
 
 > Create smart AWS diagrams [Cloudcraft](https://cloudcraft.co/)
 
@@ -20,7 +20,7 @@ This means customers of all sizes and industries can use it to store and protect
 
 ▾ Amazon S3 works
 
-<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/master/screenshots/s3-works.png' border='0' alt='s3-works' />
+<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/s3-works.png' border='0' alt='s3-works' />
 
 ## What is CodePipeline ?
 
@@ -30,7 +30,7 @@ CodePipeline automates the build, test, and deploy phases of your release proces
 
 ▾ Amazon CodePipeline works
 
-<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/master/screenshots/codepipeline-works.png' border='0' alt='codepipeline-works' />
+<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/codepipeline-works.png' border='0' alt='codepipeline-works' />
 
 ## Continuous Deployment with CodePipeline
 
@@ -59,3 +59,27 @@ phases:
     commands:
       - aws s3 sync ./build s3://{ S3_BUCKET } # Upload S3
 ```
+
+## What is SNS ?
+
+Amazon Simple Notification Service (SNS) is a highly available, durable, secure, fully managed pub/sub messaging service that enables you to decouple microservices, distributed systems, and serverless applications.
+
+Amazon SNS provides topics for high-throughput, push-based, many-to-many messaging.
+
+▾ Amazon SNS works
+
+<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/sns-works.png' border='0' alt='sns-works' />
+
+## What is Chatbot ?
+
+AWS Chatbot is an interactive agent that makes it easy to monitor and interact with your AWS resources in your Slack channels and Amazon Chime chat rooms.
+
+AWS Chatbot is currently in beta.
+
+▾ Amazon Chatbot works Notifications
+
+<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/chatbot-notifications.png' border='0' alt='chatbot-notifications' />
+
+▾ Amazon Chatbot works Commands
+
+<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/chatbot-commands.png' border='0' alt='chatbot-commands' />
