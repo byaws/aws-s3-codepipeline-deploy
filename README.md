@@ -1,4 +1,4 @@
-<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/architecture.png' border='0' alt='architecture' />
+<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/images/architecture.png' border='0' alt='architecture' />
 
 Implementation of automated distribution through [AWS](https://aws.amazon.com/ko/) product [S3](https://aws.amazon.com/ko/s3/) and [CodePipeline](https://aws.amazon.com/ko/codepipeline/)
 
@@ -22,7 +22,7 @@ This means customers of all sizes and industries can use it to store and protect
 
 ▾ Amazon S3 works
 
-<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/s3-works.png' border='0' alt='s3-works' />
+<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/images/s3-works.png' border='0' alt='s3-works' />
 
 ## What is CodePipeline ?
 
@@ -32,7 +32,7 @@ CodePipeline automates the build, test, and deploy phases of your release proces
 
 ▾ Amazon CodePipeline works
 
-<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/codepipeline-works.png' border='0' alt='codepipeline-works' />
+<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/images/codepipeline-works.png' border='0' alt='codepipeline-works' />
 
 ## Continuous Deployment with CodePipeline
 
@@ -70,7 +70,7 @@ Amazon SNS provides topics for high-throughput, push-based, many-to-many messagi
 
 ▾ Amazon SNS works
 
-<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/sns-works.png' border='0' alt='sns-works' />
+<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/images/sns-works.png' border='0' alt='sns-works' />
 
 ## What is Chatbot ?
 
@@ -80,8 +80,8 @@ AWS Chatbot is currently in beta.
 
 ▾ Amazon Chatbot Notifications
 
-<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/chatbot-notifications.png' border='0' alt='chatbot-notifications' />
+<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/images/chatbot-notifications.png' border='0' alt='chatbot-notifications' />
 
 ▾ Amazon Chatbot Commands
 
-<img src='https://github.com/byaws/images/raw/master/s3-codepipeline/chatbot-commands.png' border='0' alt='chatbot-commands' />
+<img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/images/chatbot-commands.png' border='0' alt='chatbot-commands' />
