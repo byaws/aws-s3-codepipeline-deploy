@@ -2,16 +2,16 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:                       # 런타임 nodejs v12으로 설정
-      nodejs: 12
-    commands:                               # npm 버전 업데이트
-      - npm install -g npm
+    runtime-versions:
+      nodejs: lts
+    commands:
+      - npm install -g npm@latest
   pre_build:
-    commands:                               # 빌드에 필요한 패키지 설치
+    commands:                               
       - npm install
   build:
-    commands:                               # 정적파일로 빌드
+    commands:                               
       - npm run build
   post_build:
-    commands:                               # 빌드 후 결과물을 버킷으로 업로드
+    commands:                             
       - aws s3 sync ./build s3://s3-codepipeline-build-tutorial

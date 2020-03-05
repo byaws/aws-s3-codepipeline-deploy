@@ -34,8 +34,6 @@ CodePipeline automates the build, test, and deploy phases of your release proces
 
 <img src='https://github.com/byaws/aws-s3-codepipeline-deploy/raw/images/codepipeline-works.png' border='0' alt='codepipeline-works' />
 
-## Continuous Deployment with CodePipeline
-
 ### Add a Build Specification File to Your Source Repository
 
 Add a `buildspec.yml` file to your source code repository to tell CodeBuild how to do that.
@@ -48,18 +46,18 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 12                               # Runtime node.js 12
+      nodejs: lts
     commands:
-      - npm install -g npm@latest              # Install npm latest
+      - npm install -g npm@latest
   pre_build:
     commands:
-      - npm install                            # Install dependencies
+      - npm install
   build:
     commands:
-      - npm run build                          # Build 
+      - npm run build
   post_build:
     commands:
-      - aws s3 sync ./build s3://{ S3_BUCKET } # Upload S3
+      - aws s3 sync ./[dist folder] s3://[s3 bucket]
 ```
 
 ## What is SNS ?

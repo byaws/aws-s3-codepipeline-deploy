@@ -1,7 +1,22 @@
 {
   "name": "aws-s3-codepipeline-deploy",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
+  "description": "React + CodePipeline + S3 Deploy",
+  "author": "AGUMON <ljlm0402@gmail.com>",
+  "license": "ISC",
+  "keywords": [
+    "TypeScript",
+    "React",
+    "CodePipeline",
+    "S3"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -14,12 +29,6 @@
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.0",
     "typescript": "~3.7.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
